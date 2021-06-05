@@ -1,16 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #ebebee;
 }
 
-.containe{
-    margin-top: 30px;
+.containe {
+  margin-top: 30px;
 }
-button{
-    width: 100%;
+button {
+  width: 100%;
 }
 
 .text-danger {
-    font-size: 25px;
+  font-size: 25px;
+}
+
+#date {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+  font-size: 20px;
+}
+#hour {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+  font-size: 20px;
+}
+.dates {
+  margin-top: 20px;
+  color: gray;
+}
+#lgif {
+  width: 70px;
+  position: relative;
+  left: 45%;
+}
+#loading {
+  display: none;
+  margin-top: 20px;
 }
