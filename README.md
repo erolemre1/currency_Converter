@@ -17,5 +17,5 @@ After cloning the project, open it in Visual Studio Code.
 
 [This Website](https://exchangerate.host/#/) get a key and paste a copy for app.js.  
 Good luck with 
-EROL EMRE GÜLEÇ
+
  
