@@ -1,5 +1,6 @@
 ///api
-const api = "https://api.exchangerate.host/";
+const api = env.API_KEY;
+
 
 const el_currency_one = document.getElementById("currency_one");
 const el_currency_two = document.getElementById("currency_two");
